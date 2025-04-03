@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleresponsability/ExampleSingleResponsability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleresponsability/InputProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleresponsability/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleresponsability/ViolationChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleresponsability/sortintegers/ExerciseSingleResponsibility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +34,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ExampleSingleResponsability.executor": "Run",
+    "Application.ExerciseSingleResponsibility.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -48,7 +45,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExerciseSingleResponsibility">
     <configuration name="ExampleSingleResponsability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleresponsability.ExampleSingleResponsability" />
       <module name="solid-and-design-patterns" />
@@ -62,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExerciseSingleResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleresponsability.sortintegers.ExerciseSingleResponsibility" />
+      <module name="solid-and-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleresponsability.sortintegers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciseSingleResponsibility" />
         <item itemvalue="Application.ExampleSingleResponsability" />
       </list>
     </recent_temporary>
