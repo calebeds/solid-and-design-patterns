@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/AIInterviewQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/AlgorithmsInterviewQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/ExampleOpenClosedPrinciple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/FinanceInterviewQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/InterviewQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/InterviewQuestionProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/sortingalgorithms/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/sortingalgorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/sortingalgorithms/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/sortingalgorithms/SortingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/sortingalgorithms/SortingAlgorithmsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclosed/sortingalgorithms/SortingProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
     "Application.ExampleOpenClosedPrinciple.executor": "Run",
     "Application.ExampleSingleResponsability.executor": "Run",
     "Application.ExerciseSingleResponsibility.executor": "Run",
+    "Application.SortingAlgorithmsExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -54,10 +55,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="openclosed.sortingalgorithms" />
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleOpenClosedPrinciple">
+  <component name="RunManager" selected="Application.SortingAlgorithmsExample">
     <configuration name="ExampleOpenClosedPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="openclosed.ExampleOpenClosedPrinciple" />
       <module name="solid-and-design-patterns" />
@@ -97,8 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingAlgorithmsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="openclosed.sortingalgorithms.SortingAlgorithmsExample" />
+      <module name="solid-and-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="openclosed.sortingalgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingAlgorithmsExample" />
         <item itemvalue="Application.ExampleOpenClosedPrinciple" />
         <item itemvalue="Application.SortIntegersSingleResponsibility" />
         <item itemvalue="Application.ExampleSingleResponsability" />
