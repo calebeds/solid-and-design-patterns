@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/liskovsubstitutionprinciple/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liskovsubstitutionprinciple/LiskovSubstitutionPrincipleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liskovsubstitutionprinciple/PetrolCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/liskovsubstitutionprinciple/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/BalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/InterfaceSegregationPrincipleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LiskovSubstitutionPrincipleExample">
+  <component name="RunManager" selected="Application.InterfaceSegregationPrincipleExample">
     <configuration name="ExampleOpenClosedPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="openclosed.ExampleOpenClosedPrinciple" />
       <module name="solid-and-design-patterns" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleSingleResponsability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleresponsability.ExampleSingleResponsability" />
+    <configuration name="InterfaceSegregationPrincipleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacesegregationprinciple.InterfaceSegregationPrincipleExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleresponsability.*" />
+          <option name="PATTERN" value="interfacesegregationprinciple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceSegregationPrincipleExample" />
         <item itemvalue="Application.LiskovSubstitutionPrincipleExample" />
         <item itemvalue="Application.SortingAlgorithmsExample" />
         <item itemvalue="Application.ExampleOpenClosedPrinciple" />
         <item itemvalue="Application.SortIntegersSingleResponsibility" />
-        <item itemvalue="Application.ExampleSingleResponsability" />
       </list>
     </recent_temporary>
   </component>
