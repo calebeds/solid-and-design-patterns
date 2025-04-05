@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/BalancedTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/BinarySearchTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/InterfaceSegregationPrincipleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/RotationTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/interfacesegregationprinciple/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,6 +42,7 @@
     "Application.ExampleOpenClosedPrinciple.executor": "Run",
     "Application.ExampleSingleResponsability.executor": "Run",
     "Application.ExerciseSingleResponsibility.executor": "Run",
+    "Application.InterfaceSegregationPrincipleExample.executor": "Run",
     "Application.LiskovSubstitutionPrincipleExample.executor": "Run",
     "Application.SortingAlgorithmsExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
