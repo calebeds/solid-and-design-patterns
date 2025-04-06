@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/DatabaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/DependencyInversionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/MySQLDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/OracleDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Payoneer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Paypal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Skrill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Webstore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/WebstoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,6 +47,7 @@
     "Application.InterfaceSegregationPrincipleExample.executor": "Run",
     "Application.LiskovSubstitutionPrincipleExample.executor": "Run",
     "Application.SortingAlgorithmsExample.executor": "Run",
+    "Application.WebstoreTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -61,26 +63,13 @@
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DependencyInversionExample">
+  <component name="RunManager" selected="Application.WebstoreTest">
     <configuration name="DependencyInversionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dependencyinversion.DependencyInversionExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dependencyinversion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleOpenClosedPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="openclosed.ExampleOpenClosedPrinciple" />
-      <module name="solid-and-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="openclosed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebstoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dependencyinversion.webstore.WebstoreTest" />
+      <module name="solid-and-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dependencyinversion.webstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebstoreTest" />
         <item itemvalue="Application.DependencyInversionExample" />
         <item itemvalue="Application.InterfaceSegregationPrincipleExample" />
         <item itemvalue="Application.LiskovSubstitutionPrincipleExample" />
         <item itemvalue="Application.SortingAlgorithmsExample" />
-        <item itemvalue="Application.ExampleOpenClosedPrinciple" />
       </list>
     </recent_temporary>
   </component>
