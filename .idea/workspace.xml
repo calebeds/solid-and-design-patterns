@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Payoneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Paypal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Skrill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/Webstore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinversion/webstore/WebstoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singletonpattern/DatabaseConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singletonpattern/SingletonPatternExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,7 @@
     "Application.ExerciseSingleResponsibility.executor": "Run",
     "Application.InterfaceSegregationPrincipleExample.executor": "Run",
     "Application.LiskovSubstitutionPrincipleExample.executor": "Run",
+    "Application.SingletonPatternExample.executor": "Run",
     "Application.SortingAlgorithmsExample.executor": "Run",
     "Application.WebstoreTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,7 +59,7 @@
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebstoreTest">
+  <component name="RunManager" selected="Application.SingletonPatternExample">
     <configuration name="DependencyInversionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dependencyinversion.DependencyInversionExample" />
       <module name="solid-and-design-patterns" />
@@ -103,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingAlgorithmsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="openclosed.sortingalgorithms.SortingAlgorithmsExample" />
+    <configuration name="SingletonPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singletonpattern.SingletonPatternExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="openclosed.sortingalgorithms.*" />
+          <option name="PATTERN" value="singletonpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPatternExample" />
         <item itemvalue="Application.WebstoreTest" />
         <item itemvalue="Application.DependencyInversionExample" />
         <item itemvalue="Application.InterfaceSegregationPrincipleExample" />
         <item itemvalue="Application.LiskovSubstitutionPrincipleExample" />
-        <item itemvalue="Application.SortingAlgorithmsExample" />
       </list>
     </recent_temporary>
   </component>
