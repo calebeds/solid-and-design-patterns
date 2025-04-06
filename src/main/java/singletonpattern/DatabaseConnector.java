@@ -11,8 +11,13 @@ public class DatabaseConnector {
 
     public static DatabaseConnector getInstance() {
         // we just instantiate the class if necessary
+        // IF WE HAVE MULTIPLE THREDS??
         if(INSTANCE == null) {
-            INSTANCE = new DatabaseConnector();
+            // this block can be entered by a single thread
+            // PROBLEM; it is too slow
+            synchronized (DatabaseConnector.class) {
+                INSTANCE = new DatabaseConnector();
+            }
         }
 
         return INSTANCE;
