@@ -1,8 +1,8 @@
 package singletonpattern;
 
 public class DatabaseConnector {
-    // eager version
-    private static DatabaseConnector INSTANCE = new DatabaseConnector();
+    // lazy version
+    private static DatabaseConnector INSTANCE;
 
     // we are not able to instantiate the class
     private DatabaseConnector() {
@@ -10,6 +10,11 @@ public class DatabaseConnector {
     }
 
     public static DatabaseConnector getInstance() {
+        // we just instantiate the class if necessary
+        if(INSTANCE == null) {
+            INSTANCE = new DatabaseConnector();
+        }
+
         return INSTANCE;
     }
 
