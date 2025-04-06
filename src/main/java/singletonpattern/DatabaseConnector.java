@@ -5,6 +5,7 @@ public class DatabaseConnector {
     private static DatabaseConnector INSTANCE;
 
     // we are not able to instantiate the class
+    // "reflection attack"
     private DatabaseConnector() {
 
     }

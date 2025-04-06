@@ -2,11 +2,14 @@ package singletonpattern;
 
 public class SingletonPatternExample {
     public static void main(String[] args) {
-        DatabaseConnector object1 = DatabaseConnector.getInstance();
-        DatabaseConnector object2 = DatabaseConnector.getInstance();
+        Database.INSTANCE.connect();
+        Database.INSTANCE.disconnect();
+
+        Database object1 = Database.INSTANCE;
+        Database object2 = Database.INSTANCE;
 
         if(object1 == object2) {
-            System.out.println("the objects are the same ");
+            System.out.println("The objects are the same");
         }
     }
 }
