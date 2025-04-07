@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singletonpattern/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singletonpattern/DatabaseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singletonpattern/DatabaseConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singletonpattern/SingletonPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singletonpattern/SingletonPatternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorypattern/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorypattern/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorypattern/AnimalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorypattern/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorypattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorypattern/FactoryPatternExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,7 +64,7 @@
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonPatternExample">
+  <component name="RunManager" selected="Application.FactoryPatternExample">
     <configuration name="DependencyInversionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dependencyinversion.DependencyInversionExample" />
       <module name="solid-and-design-patterns" />
@@ -75,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceSegregationPrincipleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfacesegregationprinciple.InterfaceSegregationPrincipleExample" />
+    <configuration name="FactoryPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factorypattern.FactoryPatternExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfacesegregationprinciple.*" />
+          <option name="PATTERN" value="factorypattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiskovSubstitutionPrincipleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liskovsubstitutionprinciple.LiskovSubstitutionPrincipleExample" />
+    <configuration name="InterfaceSegregationPrincipleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacesegregationprinciple.InterfaceSegregationPrincipleExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liskovsubstitutionprinciple.*" />
+          <option name="PATTERN" value="interfacesegregationprinciple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryPatternExample" />
         <item itemvalue="Application.SingletonPatternExample" />
         <item itemvalue="Application.WebstoreTest" />
         <item itemvalue="Application.DependencyInversionExample" />
         <item itemvalue="Application.InterfaceSegregationPrincipleExample" />
-        <item itemvalue="Application.LiskovSubstitutionPrincipleExample" />
       </list>
     </recent_temporary>
   </component>
@@ -147,16 +150,5 @@
       <updated>1743634641742</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/singletonpattern/SingletonPatternExample.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
