@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/ElectricCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/ElectricFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/ElectricToyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/PetrolCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/PetrolFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/PetrolToyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/builderpattern/BuilderPatternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/builderpattern/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,6 +37,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractFactoryExample.executor": "Run",
+    "Application.BuilderPatternExample.executor": "Run",
     "Application.DependencyInversionExample.executor": "Run",
     "Application.ExampleOpenClosedPrinciple.executor": "Run",
     "Application.ExampleSingleResponsability.executor": "Run",
@@ -73,7 +69,7 @@
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryExample">
+  <component name="RunManager" selected="Application.BuilderPatternExample">
     <configuration name="AbstractFactoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractfactory.AbstractFactoryExample" />
       <module name="solid-and-design-patterns" />
@@ -87,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInversionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dependencyinversion.DependencyInversionExample" />
+    <configuration name="BuilderPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="builderpattern.BuilderPatternExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dependencyinversion.*" />
+          <option name="PATTERN" value="builderpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderPatternExample" />
         <item itemvalue="Application.AbstractFactoryExample" />
         <item itemvalue="Application.FactoryPatternExample" />
         <item itemvalue="Application.SingletonPatternExample" />
         <item itemvalue="Application.WebstoreTest" />
-        <item itemvalue="Application.DependencyInversionExample" />
       </list>
     </recent_temporary>
   </component>
