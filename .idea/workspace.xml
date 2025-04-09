@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/OperationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/OperationManagerBAD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/StrategyPatternExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
