@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototypepattern/PrototypeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototypepattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototypepattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototypepattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/OperationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/OperationManagerBAD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/StrategyPatternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategypattern/Subtraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +51,10 @@
     "Application.FactoryPatternExample.executor": "Run",
     "Application.InterfaceSegregationPrincipleExample.executor": "Run",
     "Application.LiskovSubstitutionPrincipleExample.executor": "Run",
+    "Application.PrototypeExample.executor": "Run",
     "Application.SingletonPatternExample.executor": "Run",
     "Application.SortingAlgorithmsExample.executor": "Run",
+    "Application.StrategyPatternExample.executor": "Run",
     "Application.WebstoreTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,13 +70,14 @@
       <recent name="factorypattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="strategypattern" />
       <recent name="abstractfactory" />
       <recent name="factorypattern" />
       <recent name="openclosed.sortingalgorithms" />
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrototypeExample">
+  <component name="RunManager" selected="Application.StrategyPatternExample">
     <configuration name="AbstractFactoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractfactory.AbstractFactoryExample" />
       <module name="solid-and-design-patterns" />
@@ -124,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singletonpattern.SingletonPatternExample" />
+    <configuration name="StrategyPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategypattern.StrategyPatternExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singletonpattern.*" />
+          <option name="PATTERN" value="strategypattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPatternExample" />
         <item itemvalue="Application.PrototypeExample" />
         <item itemvalue="Application.BuilderPatternExample" />
         <item itemvalue="Application.AbstractFactoryExample" />
         <item itemvalue="Application.FactoryPatternExample" />
-        <item itemvalue="Application.SingletonPatternExample" />
       </list>
     </recent_temporary>
   </component>
