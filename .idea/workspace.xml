@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/ObserverExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/WeatherObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/stockexchange/BuyStockListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/stockexchange/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/stockexchange/SellStockListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/stockexchange/StockExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/stockexchange/StockExchangeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerpattern/stockexchange/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/CommandPatternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/Switcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/TurnOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/TurnOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/queuing/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/queuing/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/queuing/QueuingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/queuing/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/queuing/TaskSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   "keyToString": {
     "Application.AbstractFactoryExample.executor": "Run",
     "Application.BuilderPatternExample.executor": "Run",
+    "Application.CommandPatternExample.executor": "Run",
     "Application.DependencyInversionExample.executor": "Run",
     "Application.ExampleOpenClosedPrinciple.executor": "Run",
     "Application.ExampleSingleResponsability.executor": "Run",
@@ -57,6 +58,7 @@
     "Application.LiskovSubstitutionPrincipleExample.executor": "Run",
     "Application.ObserverExample.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
+    "Application.QueuingExample.executor": "Run",
     "Application.SingletonPatternExample.executor": "Run",
     "Application.SortingAlgorithmsExample.executor": "Run",
     "Application.StockExchangeExample.executor": "Run",
@@ -83,13 +85,13 @@
       <recent name="openclosed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StockExchangeExample">
-    <configuration name="BuilderPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builderpattern.BuilderPatternExample" />
+  <component name="RunManager" selected="Application.QueuingExample">
+    <configuration name="CommandPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="commandpattern.CommandPatternExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="builderpattern.*" />
+          <option name="PATTERN" value="commandpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototypepattern.PrototypeExample" />
+    <configuration name="QueuingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="commandpattern.queuing.QueuingExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototypepattern.*" />
+          <option name="PATTERN" value="commandpattern.queuing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueuingExample" />
+        <item itemvalue="Application.CommandPatternExample" />
         <item itemvalue="Application.StockExchangeExample" />
         <item itemvalue="Application.ObserverExample" />
         <item itemvalue="Application.StrategyPatternExample" />
-        <item itemvalue="Application.PrototypeExample" />
-        <item itemvalue="Application.BuilderPatternExample" />
       </list>
     </recent_temporary>
   </component>
