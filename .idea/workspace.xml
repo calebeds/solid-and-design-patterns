@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/AbstractCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/NullCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/NullObjectPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/RealCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/visitorpattern/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/visitorpattern/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/visitorpattern/ShoppingCartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/visitorpattern/ShoppingItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/visitorpattern/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/visitorpattern/VisitorPatternExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     "Application.StockExchangeExample.executor": "Run",
     "Application.StrategyPatternExample.executor": "Run",
     "Application.TemplatePatternExample.executor": "Run",
+    "Application.VisitorPatternExample.executor": "Run",
     "Application.WebstoreTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,20 +83,7 @@
       <recent name="openclosed.sortingalgorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NullObjectPattern">
-    <configuration name="CommandPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="commandpattern.CommandPatternExample" />
-      <module name="solid-and-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="commandpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VisitorPatternExample">
     <configuration name="IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioraldesignpatterns.iterator.IteratorExample" />
       <module name="solid-and-design-patterns" />
@@ -148,13 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioraldesignpatterns.visitorpattern.VisitorPatternExample" />
+      <module name="solid-and-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioraldesignpatterns.visitorpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorPatternExample" />
         <item itemvalue="Application.NullObjectPattern" />
         <item itemvalue="Application.TemplatePatternExample" />
         <item itemvalue="Application.IteratorExample" />
         <item itemvalue="Application.QueuingExample" />
-        <item itemvalue="Application.CommandPatternExample" />
       </list>
     </recent_temporary>
   </component>
