@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/templatepattern/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/templatepattern/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/templatepattern/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/templatepattern/TemplatePatternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/AbstractCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/NullCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/NullObjectPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioraldesignpatterns/nullobjectpattern/RealCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     "Application.InterfaceSegregationPrincipleExample.executor": "Run",
     "Application.IteratorExample.executor": "Run",
     "Application.LiskovSubstitutionPrincipleExample.executor": "Run",
+    "Application.NullObjectPattern.executor": "Run",
     "Application.ObserverExample.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
     "Application.QueuingExample.executor": "Run",
@@ -79,7 +82,7 @@
       <recent name="openclosed.sortingalgorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TemplatePatternExample">
+  <component name="RunManager" selected="Application.NullObjectPattern">
     <configuration name="CommandPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="commandpattern.CommandPatternExample" />
       <module name="solid-and-design-patterns" />
@@ -106,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueuingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="commandpattern.queuing.QueuingExample" />
+    <configuration name="NullObjectPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioraldesignpatterns.nullobjectpattern.NullObjectPattern" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="commandpattern.queuing.*" />
+          <option name="PATTERN" value="behavioraldesignpatterns.nullobjectpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockExchangeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observerpattern.stockexchange.StockExchangeExample" />
+    <configuration name="QueuingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="commandpattern.queuing.QueuingExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observerpattern.stockexchange.*" />
+          <option name="PATTERN" value="commandpattern.queuing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NullObjectPattern" />
         <item itemvalue="Application.TemplatePatternExample" />
         <item itemvalue="Application.IteratorExample" />
         <item itemvalue="Application.QueuingExample" />
         <item itemvalue="Application.CommandPatternExample" />
-        <item itemvalue="Application.StockExchangeExample" />
       </list>
     </recent_temporary>
   </component>
