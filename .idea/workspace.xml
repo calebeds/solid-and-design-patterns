@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/decorator/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/decorator/BeverageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/decorator/DecoratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/decorator/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/decorator/PlainBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/decorator/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/facade/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/facade/FacadeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/facade/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/facade/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/facade/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/facade/SortingManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
     "Application.ExampleOpenClosedPrinciple.executor": "Run",
     "Application.ExampleSingleResponsability.executor": "Run",
     "Application.ExerciseSingleResponsibility.executor": "Run",
+    "Application.FacadeExample.executor": "Run",
     "Application.FactoryPatternExample.executor": "Run",
     "Application.InterfaceSegregationPrincipleExample.executor": "Run",
     "Application.IteratorExample.executor": "Run",
@@ -80,14 +81,14 @@
       <recent name="factorypattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="structuraldesignpatterns.decorator" />
       <recent name="behavioraldesignpatterns.visitorpattern.anotherexample" />
       <recent name="behavioraldesignpatterns.templatepattern" />
       <recent name="strategypattern" />
       <recent name="abstractfactory" />
-      <recent name="factorypattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorExample">
+  <component name="RunManager" selected="Application.FacadeExample">
     <configuration name="DecoratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structuraldesignpatterns.decorator.DecoratorExample" />
       <module name="solid-and-design-patterns" />
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullObjectPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioraldesignpatterns.nullobjectpattern.NullObjectPattern" />
+    <configuration name="FacadeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuraldesignpatterns.facade.FacadeExample" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioraldesignpatterns.nullobjectpattern.*" />
+          <option name="PATTERN" value="structuraldesignpatterns.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplatePatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioraldesignpatterns.templatepattern.TemplatePatternExample" />
+    <configuration name="NullObjectPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioraldesignpatterns.nullobjectpattern.NullObjectPattern" />
       <module name="solid-and-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioraldesignpatterns.templatepattern.*" />
+          <option name="PATTERN" value="behavioraldesignpatterns.nullobjectpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadeExample" />
         <item itemvalue="Application.DecoratorExample" />
         <item itemvalue="Application.TestVisitor" />
         <item itemvalue="Application.VisitorPatternExample" />
         <item itemvalue="Application.NullObjectPattern" />
-        <item itemvalue="Application.TemplatePatternExample" />
       </list>
     </recent_temporary>
   </component>
