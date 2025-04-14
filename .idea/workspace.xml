@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0339ac6-3315-4b41-9e29-814e7ac317c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/flyweight/FlyweightExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/flyweight/FlyweightSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/flyweight/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/flyweight/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/flyweight/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/adapter/AdapterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/adapter/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/adapter/BicycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/adapter/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/adapter/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structuraldesignpatterns/adapter/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbstractFactoryExample.executor": "Run",
+    "Application.AdapterExample.executor": "Run",
     "Application.BuilderPatternExample.executor": "Run",
     "Application.CommandPatternExample.executor": "Run",
     "Application.DecoratorExample.executor": "Run",
@@ -81,14 +83,27 @@
       <recent name="factorypattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="structuraldesignpatterns.adapter" />
       <recent name="structuraldesignpatterns.decorator" />
       <recent name="behavioraldesignpatterns.visitorpattern.anotherexample" />
       <recent name="behavioraldesignpatterns.templatepattern" />
       <recent name="strategypattern" />
-      <recent name="abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyweightExample">
+  <component name="RunManager" selected="Application.AdapterExample">
+    <configuration name="AdapterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuraldesignpatterns.adapter.AdapterExample" />
+      <module name="solid-and-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structuraldesignpatterns.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DecoratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structuraldesignpatterns.decorator.DecoratorExample" />
       <module name="solid-and-design-patterns" />
@@ -141,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioraldesignpatterns.visitorpattern.VisitorPatternExample" />
-      <module name="solid-and-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioraldesignpatterns.visitorpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterExample" />
         <item itemvalue="Application.FlyweightExample" />
         <item itemvalue="Application.FacadeExample" />
         <item itemvalue="Application.DecoratorExample" />
         <item itemvalue="Application.TestVisitor" />
-        <item itemvalue="Application.VisitorPatternExample" />
       </list>
     </recent_temporary>
   </component>
